@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const Count(),
               ElevatedButton(
                   onPressed: () {
-                    context.read<ShoppingCartProvider>().addItem('Bangla'
+                    context.read<ShoppingCartProvider>().addItem('Banana'
                         '');
                     Navigator.push(
                       context,
